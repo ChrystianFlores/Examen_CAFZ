@@ -15,6 +15,8 @@ $base = substr($raizProyecto, strlen($raizServidor)) . '/';
 
     <!-- Menú de navegación con los botones de cada módulo -->
     <nav class="encabezado-menu">
+        <!-- Botón para regresar al inicio (index) -->
+        <a href="<?php echo $base; ?>index.php" class="btn-modulo">Inicio</a>
         <!-- Botón que lleva al Módulo 1 -->
         <a href="<?php echo $base; ?>public/modulo1.php" class="btn-modulo">Módulo 1</a>
         <!-- Botón que lleva al Módulo 2 -->
