@@ -7,17 +7,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Título que aparece en la pestaña del navegador -->
     <title>Módulo 3</title>
+    <!-- Hoja de estilos del sitio -->
+    <link rel="stylesheet" href="../css/estilos.css">
 </head>
 <body>
-    <!-- Incluye el encabezado con los botones de los módulos -->
-    <?php include __DIR__ . '/encabezado.php'; ?>
+    <!-- Encabezado principal del sitio -->
+    <header class="encabezado">
+        <!-- Título del sitio, lleva al inicio -->
+        <h1 class="encabezado-titulo"><a href="../index.html">Examen CAFZ</a></h1>
+
+        <!-- Menú de navegación con los botones de cada módulo -->
+        <nav class="encabezado-menu">
+            <!-- Botón para regresar al inicio (index) -->
+            <a href="../index.html" class="btn-modulo">Inicio</a>
+            <!-- Botón que lleva al Módulo 1 -->
+            <a href="modulo1.html" class="btn-modulo">Módulo 1</a>
+            <!-- Botón que lleva al Módulo 2 -->
+            <a href="modulo2.html" class="btn-modulo">Módulo 2</a>
+            <!-- Botón que lleva al Módulo 3 -->
+            <a href="modulo3.html" class="btn-modulo">Módulo 3</a>
+        </nav>
+    </header>
 
     <!-- Contenido principal de la página -->
     <main class="contenido">
         <h2 class="bienvenida">Módulo 3</h2>
     </main>
 
-    <!-- Incluye el pie de página -->
-    <?php include __DIR__ . '/pie.php'; ?>
+    <!-- Pie de página del sitio -->
+    <footer class="pie">
+        <p class="pie-texto">&copy; 2026 Examen CAFZ. Todos los derechos reservados.</p>
+    </footer>
 </body>
 </html>
