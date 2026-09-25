@@ -79,3 +79,9 @@ body {
     color: #1e3a5f;
     text-align: center;
 }
+
+/* Enlace del título del encabezado (sin subrayado, color blanco) */
+.encabezado-titulo a {
+    color: #ffffff;
+    text-decoration: none;
+}
