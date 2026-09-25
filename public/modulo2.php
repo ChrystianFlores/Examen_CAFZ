@@ -14,9 +14,10 @@
 
     <!-- Contenido principal de la página -->
     <main class="contenido">
-        <h2 class="bienvenida">Módulo 2</h2>
+        <h2 class="bienvenida">Said Nazario Corona</h2>
     </main>
 
+    <img src="img/pfp.jpg" alt="Said pfp" class="perfil">
     <!-- Incluye el pie de página -->
     <?php include __DIR__ . '/pie.php'; ?>
 </body>
